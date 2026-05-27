@@ -20,25 +20,16 @@ border: 0px;
 <h1 id="mainTitle">GHZ2</h1>
 <h3>Your library for gaming, gaming, and gaming.</h3>
 <h2>ALL GAMES</h2>
-<button class="game" onclick="javascript:set('./games/drivemad100.html');">Drive Mad - 100 Levels</button>
-<button class="game" onclick="javascript:set('./games/drivemad200.html');">Drive Mad - 200 Levels</button>
-<button class="game" onclick="javascript:set('./games/escaperoad.html');">Escape Road</button>
-<button class="game" onclick="javascript:set('./games/happywheels.html');">Happy Wheels</button>
-<button class="game" onclick="javascript:set('./games/minecraftparkour.html');">Minecraft Parkour</button>
-<button class="game" onclick="javascript:set('./games/racer.html');">Racer</button>
-<button class="game" onclick="javascript:set('./games/ragdollarchers.html');">Ragdoll Archers</button>
-<button class="game" onclick="javascript:set('./games/stickmangtacity.html');">Stickman GTA City</button>
-<button class="game" onclick="javascript:set('./games/stickmanhook.html');">Stickman Hook</button>
-<button class="game" onclick="javascript:set('./games/subwaysurfersbarcelona.html');">Subway Surfers: Barcelona</button>
-<button class="game" onclick="javascript:set('./games/theworldshardestgame.html');">The World's Hardest Game</button>
-<script>
-async function set (to) {
-const response = await fetch(to);
-const html = await response.text();
-document.open();
-document.write(html);
-document.close();
-};
-</script>
+<button class="game" onclick="location.href='./games/drivemad100.html'">Drive Mad - 100 Levels</button>
+<button class="game" onclick="location.href='./games/drivemad200.html'">Drive Mad - 200 Levels</button>
+<button class="game" onclick="location.href='./games/escaperoad.html'">Escape Road</button>
+<button class="game" onclick="location.href='./games/happywheels.html'">Happy Wheels</button>
+<button class="game" onclick="location.href='./games/minecraftparkour.html'">Minecraft Parkour</button>
+<button class="game" onclick="location.href='./games/racer.html'">Racer</button>
+<button class="game" onclick="location.href='./games/ragdollarchers.html'">Ragdoll Archers</button>
+<button class="game" onclick="location.href='./games/stickmangtacity.html'">Stickman GTA City</button>
+<button class="game" onclick="location.href='./games/stickmanhook.html'">Stickman Hook</button>
+<button class="game" onclick="location.href='./games/subwaysurfersbarcelona.html'">Subway Surfers: Barcelona</button>
+<button class="game" onclick="location.href='./games/theworldshardestgame.html'">The World's Hardest Game</button>
 </body>
 </html>
